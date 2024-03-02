@@ -1,0 +1,27 @@
+
+#randomTextContainer {
+    width: 370px;
+    height: 200px;
+    position: relative;
+    overflow: auto;
+    margin: 22px auto;
+    padding: 21px;
+    position: relative;
+    /* border: 1px solid black; */
+  }
+  
+
+  #randomText {
+   
+    /* margin: 19px;
+    padding: 11px; */
+    position: absolute;
+    /* top: 50%;
+    left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    font-size: 33px;
+   color:blue;
+   text-shadow: 5px 5px 2px green;
+  }
+  
+  

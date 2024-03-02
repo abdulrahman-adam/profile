@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu-container {
+    text-align: center;
+    margin: 50px;
+  }
+  
+  #toggle-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  #menu-items {
+    display: none;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  #menu-items ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #menu-items li {
+    padding: 5px 0;
+  }
+  
+  #close-button {
+    padding: 8px 16px;
+    margin-top: 10px;
+    background-color: #ccc;
+    border: none;
+    cursor: pointer;
+  }
+
+/* La section des animations */
+  .container {
+    position: relative;
+  }
+  
+  .rotating-image {
+    width: 200px;
+    height: 200px;
+    animation: rotate 5s linear infinite;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+
+  /* THE CSS OF THE SECTION OF THE DOWNLOAD IMAGES */
+
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  #downloadBtn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #downloadBtn:hover {
+    background-color: #0056b3;
+  }
+  

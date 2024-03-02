@@ -1,0 +1,104 @@
+
+
+
+
+table {
+    /* border: none; */
+    width: 90%;
+    /* border-collapse: unset; */
+    margin: 0 66px;
+   
+}
+
+td {
+    /* border: 1px solid #d3cccc; */
+    text-align: left;
+    padding: 8px;
+}
+
+tr{
+    
+    background-color: #eff5f8;
+}
+
+
+
+
+.childSecret {
+    /* display: flex;
+    
+    margin-bottom: 22px;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%; */
+}
+
+.childSecret p{
+  margin: 0;
+  
+}
+#download-pdf,#download-pdf1,#download-pdf2 {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* THE SECTION OF SHOW AND HIDE */
+
+.hidden {
+    display: none;
+}
+.visible {
+    display: block;
+}
+
+#document{
+    width: 100%;
+}
+#show-document, #show-document1, #show-document2{
+    background-color: #afd2f4;
+    border: none;
+    border-radius: 11px;
+    width: 66px;
+}
+
+#hide-document, #hide-document1, #hide-document2{
+    background-color: #939aa1;
+    border: none;
+    border-radius: 11px;
+    width: 66px;
+}
+
+#show-document, #show-document1, #show-document2 i{
+   font-size: 33px;
+}
+
+/* For Mobile Devices (e.g., smartphones) */
+@media only screen and (max-width: 600px) {
+    /* CSS styles specific to mobile devices */
+    body {
+        font-size: 14px;
+    }
+}
+
+/* For Tablets */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    /* CSS styles specific to tablets */
+    body {
+        font-size: 16px;
+    }
+}
+
+/* For Laptops and Desktops */
+@media only screen and (min-width: 1025px) {
+    /* CSS styles specific to laptops and desktops */
+    body {
+        font-size: 18px;
+    }
+}
+
